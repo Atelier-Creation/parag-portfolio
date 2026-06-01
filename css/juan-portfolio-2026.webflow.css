@@ -834,6 +834,8 @@
   opacity: 0;
   pointer-events: none;
   border-radius: 0;
+  height: 100%;
+  object-fit: cover;
   width: 100%;
   max-width: none;
   position: absolute;
@@ -1186,6 +1188,7 @@
   flex: none;
   justify-content: flex-start;
   align-items: center;
+  height: 100vh;
   width: 100vw;
   display: flex;
   position: relative;
