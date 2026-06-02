@@ -2250,7 +2250,7 @@
 
 .scroll {
   z-index: 20;
-  color: var(--_color---orange1);
+  color: #ffb58a;
   letter-spacing: -.35vw;
   margin-top: -.3vw;
   margin-left: -.6vw;
