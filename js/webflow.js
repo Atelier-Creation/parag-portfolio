@@ -37096,8 +37096,8 @@
                           "wf:transform": {},
                           "wf:style": {
                             color: [
-                              "#ffbc95",
-                              "hsla(19.999999999999936, 4.11%, 57.06%, 1.00)",
+                              "#7cc3cc",
+                              "#8c8d96",
                             ],
                           },
                         },
@@ -37130,8 +37130,8 @@
                           },
                           "wf:style": {
                             color: [
-                              "hsla(22.075471698113212, 100.00%, 73.56%, 1.00)",
-                              "hsla(19.999999999999936, 4.11%, 57.06%, 1.00)",
+                              "#7cc3cc",
+                              "#8c8d96",
                             ],
                           },
                         },
@@ -37189,7 +37189,7 @@
                         ],
                         timing: { duration: 9.97, position: 0, ease: 0 },
                         tt: 2,
-                        properties: { "wf:transform": { x: ["18%", "-22%"] } },
+                        properties: { "wf:transform": { x: ["8%", "0%"] } },
                       },
                       {
                         id: "ta-2a22fd7a",
@@ -37376,8 +37376,8 @@
                           "wf:transform": { opacity: ["70%", "100%"] },
                           "wf:style": {
                             color: [
-                              "#ffbc95",
-                              "hsla(19.999999999999936, 4.11%, 57.06%, 1.00)",
+                              "#7cc3cc",
+                              "#8c8d96",
                             ],
                           },
                         },
@@ -37551,7 +37551,7 @@
                         timing: { duration: 0.54, position: 0.45, ease: 1 },
                         properties: {
                           "wf:transform": {},
-                          "wf:style": { backgroundColor: [null, "#ffbc95"] },
+                          "wf:style": { backgroundColor: [null, "#7cc3cc"] },
                         },
                       },
                     ],
@@ -37732,7 +37732,7 @@
                         timing: { duration: 0.54, position: 0.46, ease: 1 },
                         properties: {
                           "wf:transform": {},
-                          "wf:style": { backgroundColor: [null, "#ffbc95"] },
+                          "wf:style": { backgroundColor: [null, "#7cc3cc"] },
                         },
                       },
                       {
@@ -37791,7 +37791,7 @@
                         tt: 2,
                         properties: {
                           "wf:transform": {},
-                          "wf:style": { color: ["#ffbc95", "#96908c"] },
+                          "wf:style": { color: ["#7cc3cc", "#8c8d96"] },
                         },
                         splitText: { type: "words" },
                       },
@@ -38043,7 +38043,7 @@
                         timing: { duration: 0.54, position: 0.5, ease: 1 },
                         properties: {
                           "wf:transform": {},
-                          "wf:style": { backgroundColor: [null, "#ffbc95"] },
+                          "wf:style": { backgroundColor: [null, "#7cc3cc"] },
                         },
                       },
                       {
@@ -38102,7 +38102,7 @@
                         tt: 2,
                         properties: {
                           "wf:transform": {},
-                          "wf:style": { color: ["#ffbc95", "#96908c"] },
+                          "wf:style": { color: ["#7cc3cc", "#8c8d96"] },
                         },
                         splitText: { type: "words" },
                       },

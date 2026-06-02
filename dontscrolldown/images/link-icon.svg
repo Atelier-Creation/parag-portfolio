@@ -10,11 +10,11 @@
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <circle stroke="#16181C" cx="84" cy="84" r="83.5"></circle>
+            <circle stroke="#FFFFFF" cx="84" cy="84" r="83.5"></circle>
             <mask id="mask-4" fill="white">
                 <use xlink:href="#path-3"></use>
             </mask>
-            <circle stroke="#494D55" cx="84" cy="69" r="83.5"></circle>
+            <circle stroke="#FFFFFF" cx="84" cy="69" r="83.5"></circle>
             <polygon id="🎨-Icon-Color" stroke="#072A99" stroke-width="2" mask="url(#mask-4)" transform="translate(84.000000, 69.000000) rotate(-45.000000) translate(-84.000000, -69.000000) " points="84 29 76.95 36.05 104.85 64 44 64 44 74 104.85 74 76.95 101.95 84 109 124 69"></polygon>
         </g>
     </g>

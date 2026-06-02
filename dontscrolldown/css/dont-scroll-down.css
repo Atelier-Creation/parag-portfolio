@@ -1,3 +1,7 @@
+:root {
+  --_color---orange1: #7cc3cc;
+}
+
 .tab2 {
   position: absolute;
   top: 72.3vh;
@@ -73,7 +77,7 @@
   z-index: 20;
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #aa5a40;
+  color: var(--_color---orange1);
   font-size: 110px;
   line-height: 100px;
   font-weight: 600;
@@ -497,7 +501,7 @@
 }
 
 .text-end2 {
-  color: #aa5a40;
+  color: var(--_color---orange1);
   font-size: 26px;
   line-height: 37px;
   font-weight: 500;
@@ -1049,7 +1053,7 @@
 
 .heading {
   margin-bottom: 20px;
-  color: #aa5a40;
+  color: var(--_color---orange1);
   font-size: 18px;
   line-height: 26px;
   font-weight: 500;
@@ -1283,7 +1287,7 @@
   z-index: 21;
   margin-top: 1vh;
   margin-bottom: 1vh;
-  color: #aa5a40;
+  color: var(--_color---orange1);
   font-size: 2.7vh;
   line-height: 3vh;
   font-weight: 500;
@@ -1339,8 +1343,8 @@
 }
 
 .gradient2 {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(13%, #cf6442), to(#5f4740));
-  background-image: linear-gradient(90deg, #cf6442 13%, #5f4740);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(13%, var(--_color---orange1)), to(#5f4740));
+  background-image: linear-gradient(90deg, var(--_color---orange1) 13%, #5f4740);
   line-height: 15vh;
   -webkit-background-clip: text;
   background-clip: text;
@@ -1349,14 +1353,14 @@
 
 .gradient2.tab {
   margin-left: -10vh;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(13%, #aa5a40), to(#675651));
-  background-image: linear-gradient(90deg, #aa5a40 13%, #675651);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(13%, var(--_color---orange1)), to(#675651));
+  background-image: linear-gradient(90deg, var(--_color---orange1) 13%, #675651);
 }
 
 .gradient2.persistent {
   margin-left: -1.8vw;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(13%, #cf6442), to(#454048));
-  background-image: linear-gradient(90deg, #cf6442 13%, #454048);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(13%, var(--_color---orange1)), to(#454048));
+  background-image: linear-gradient(90deg, var(--_color---orange1) 13%, #454048);
   font-size: 24vw;
   line-height: 15vw;
 }
@@ -1464,7 +1468,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: Epilogue, sans-serif;
-  color: #cf6442;
+  color: var(--_color---orange1);
   font-size: 16vh;
   line-height: 13vh;
   font-weight: 600;
@@ -1668,7 +1672,7 @@
 
 .text-end2-2 {
   font-family: Epilogue, sans-serif;
-  color: #cf6442;
+  color: var(--_color---orange1);
   font-size: 26px;
   line-height: 37px;
   font-weight: 500;
@@ -1737,7 +1741,7 @@
   margin-top: 0px;
   margin-bottom: 0.7vw;
   font-family: Epilogue, sans-serif;
-  color: #cf6442;
+  color: var(--_color---orange1);
   font-size: 2.7vh;
   line-height: 3vh;
   font-weight: 500;
@@ -1868,7 +1872,7 @@
   margin-top: 1vh;
   margin-bottom: 1vh;
   font-family: Epilogue, sans-serif;
-  color: #cf6442;
+  color: var(--_color---orange1);
   font-size: 2.7vh;
   line-height: 3vh;
   font-weight: 500;
@@ -1979,7 +1983,7 @@
 }
 
 .copyme-text.orange {
-  color: #cf6442;
+  color: var(--_color---orange1);
 }
 
 .cont-copyme {
@@ -3155,4 +3159,3 @@
     margin-top: 25.5vw;
   }
 }
-
