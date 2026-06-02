@@ -3866,7 +3866,10 @@
     width: 100%;
     display: flex;
     position: fixed;
-    bottom: 3vw;
+    bottom: calc(2.5rem + env(safe-area-inset-bottom, 0px));
+    bottom: calc(5svh + env(safe-area-inset-bottom, 0px));
+    left: 0;
+    right: 0;
   }
 
   .nav-link-mobile {
@@ -4404,7 +4407,8 @@
   }
 
   .nav-menu-mobile {
-    bottom: 5vw;
+    bottom: calc(2.5rem + env(safe-area-inset-bottom, 0px));
+    bottom: calc(5svh + env(safe-area-inset-bottom, 0px));
   }
 
   .nav-link-mobile {
