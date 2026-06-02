@@ -28,6 +28,7 @@
   --_color---orange1: #7cc3cc;
   --_color---blue: #2e54fe;
   --_color---grey: #8c8d96;
+  --_color---white: #fff;
   --_color---bg-cold: #e8e9ef;
   --_color---orange2: #100f11;
   --_color---color--text: var(--_color---light--text\<deleted\|variable-1b953bae-1e4e-2967-5f45-899b622d5a5d\>);
@@ -243,8 +244,8 @@
 }
 
 .nav-name-jm {
-  color: var(--_color---grey);
-  letter-spacing: -.04rem;
+  color: var(--_color---white);
+  letter-spacing: -.01rem;
   font-family: Goga, Arial, sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
@@ -2249,7 +2250,7 @@
 
 .scroll {
   z-index: 20;
-  color: #ffbc95;
+  color: var(--_color---orange1);
   letter-spacing: -.35vw;
   margin-top: -.3vw;
   margin-left: -.6vw;
@@ -3866,8 +3867,7 @@
     width: 100%;
     display: flex;
     position: fixed;
-    bottom: calc(2.5rem + env(safe-area-inset-bottom, 0px));
-    bottom: calc(5svh + env(safe-area-inset-bottom, 0px));
+    bottom: calc(var(--mobile-nav-bottom, 5vh) + env(safe-area-inset-bottom, 0px));
     left: 0;
     right: 0;
   }
@@ -4407,8 +4407,7 @@
   }
 
   .nav-menu-mobile {
-    bottom: calc(2.5rem + env(safe-area-inset-bottom, 0px));
-    bottom: calc(5svh + env(safe-area-inset-bottom, 0px));
+    bottom: calc(var(--mobile-nav-bottom, 5vh) + env(safe-area-inset-bottom, 0px));
   }
 
   .nav-link-mobile {
@@ -4713,3 +4712,4 @@
     min-height: 180px;
   }
 }
+

@@ -180,7 +180,7 @@
   bottom: auto;
   z-index: 250;
   opacity: 0.81;
-  color: #99887f;
+  color: var(--_color---orange1);
   font-size: 13px;
   line-height: 23px;
   letter-spacing: 2.3px;
@@ -207,7 +207,7 @@
 
 .p-body1 {
   opacity: 1;
-  color: #99887f;
+  color: var(--_color---orange1);
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 1px;
@@ -888,7 +888,7 @@
 }
 
 .text-span {
-  color: #99887f;
+  color: var(--_color---orange1);
   font-style: normal;
   font-weight: 400;
 }
@@ -980,8 +980,8 @@
 .gradient1 {
   display: inline;
   background-color: rgba(213, 131, 131, 0);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(12%, rgba(26, 27, 29, 0)), color-stop(72%, #99887f));
-  background-image: linear-gradient(0deg, rgba(26, 27, 29, 0) 12%, #99887f 72%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(12%, rgba(26, 27, 29, 0)), color-stop(72%, var(--_color---orange1)));
+  background-image: linear-gradient(0deg, rgba(26, 27, 29, 0) 12%, var(--_color---orange1) 72%);
   line-height: 13.1vh;
   -webkit-background-clip: text;
   background-clip: text;
@@ -1478,7 +1478,7 @@
 .moment-text-2 {
   margin-bottom: 2vw;
   font-family: Epilogue, sans-serif;
-  color: #99887f;
+  color: var(--_color---orange1);
   font-size: 3vw;
   line-height: 4vh;
   font-weight: 600;
@@ -1495,7 +1495,7 @@
   z-index: 250;
   opacity: 1;
   font-family: Epilogue, sans-serif;
-  color: #99887f;
+  color: var(--_color---orange1);
   font-size: 14px;
   line-height: 23px;
   font-weight: 300;
@@ -1527,7 +1527,7 @@
   margin-bottom: 0px;
   opacity: 1;
   font-family: Epilogue, sans-serif;
-  color: #99887f;
+  color: var(--_color---orange1);
   font-size: 1.3vw;
   line-height: 2.4vw;
   font-weight: 300;
@@ -1596,7 +1596,7 @@
 .end-text-2 {
   position: absolute;
   font-family: Epilogue, sans-serif;
-  color: #99887f;
+  color: var(--_color---orange1);
   font-size: 1.3vw;
   text-align: center;
   letter-spacing: 12px;
@@ -1659,7 +1659,7 @@
   background-color: rgba(17, 7, 7, 0.01);
   opacity: 1;
   font-family: Epilogue, sans-serif;
-  color: #99887f;
+  color: var(--_color---orange1);
   font-size: 16vh;
   line-height: 13vh;
   font-weight: 600;
@@ -1685,7 +1685,7 @@
   left: -2.5vw;
   bottom: 3.7vw;
   z-index: 25;
-  color: #99887f;
+  color: var(--_color---orange1);
   font-size: 1.7vw;
 }
 
@@ -1776,7 +1776,7 @@
   margin-top: 2vh;
   margin-bottom: 2vh;
   font-family: Epilogue, sans-serif;
-  color: #99887f;
+  color: var(--_color---orange1);
   font-size: 16vh;
   line-height: 14vh;
   font-weight: 600;
@@ -1890,7 +1890,7 @@
   padding-bottom: 2px;
   padding-left: 12px;
   font-family: Epilogue, sans-serif;
-  color: #99887f;
+  color: var(--_color---orange1);
   line-height: 24px;
   text-align: right;
   letter-spacing: 1.08px;
@@ -1912,7 +1912,7 @@
   background-color: rgba(17, 7, 7, 0.01);
   opacity: 1;
   font-family: Epilogue, sans-serif;
-  color: #99887f;
+  color: var(--_color---orange1);
   font-size: 4.9vw;
   line-height: 8vw;
   font-weight: 600;
@@ -2678,7 +2678,7 @@
     padding-top: 8vw;
     padding-bottom: 6vw;
     opacity: 0.72;
-    color: #99887f;
+    color: var(--_color---orange1);
     font-size: 14vw;
     letter-spacing: -0.8vw;
   }
@@ -2951,7 +2951,7 @@
 
   .link-big-social-2 {
     opacity: 0.72;
-    color: #99887f;
+    color: var(--_color---orange1);
     letter-spacing: -0.8vw;
   }
 
@@ -2987,7 +2987,7 @@
 
   .link-email {
     opacity: 0.72;
-    color: #99887f;
+    color: var(--_color---orange1);
   }
 
   .jm-title-email.menu3 {
@@ -3159,3 +3159,4 @@
     margin-top: 25.5vw;
   }
 }
+

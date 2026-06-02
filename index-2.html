@@ -624,6 +624,32 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 });
 </script>
+  <script>
+    (function () {
+      const root = document.documentElement;
+
+      function setMobileNavBottom() {
+        const viewport = window.visualViewport;
+        const viewportHeight = viewport ? viewport.height : window.innerHeight;
+        const browserInset = viewport
+          ? Math.max(0, window.innerHeight - viewport.height - viewport.offsetTop)
+          : 0;
+        const baseOffset = Math.max(viewportHeight * 0.05, 20);
+
+        root.style.setProperty('--mobile-nav-bottom', `${Math.round(baseOffset + browserInset)}px`);
+      }
+
+      setMobileNavBottom();
+      window.addEventListener('DOMContentLoaded', setMobileNavBottom);
+      window.addEventListener('resize', setMobileNavBottom, { passive: true });
+      window.addEventListener('scroll', setMobileNavBottom, { passive: true });
+
+      if (window.visualViewport) {
+        window.visualViewport.addEventListener('resize', setMobileNavBottom, { passive: true });
+        window.visualViewport.addEventListener('scroll', setMobileNavBottom, { passive: true });
+      }
+    })();
+  </script>
   <style>
 /** * CUSTOM UI STYLES TEXT SELECTED 
  */
