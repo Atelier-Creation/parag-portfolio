@@ -3196,7 +3196,7 @@
   }
 
   .img-hero-wrapper {
-    background-position: 41%;
+    background-position: 50%;
     height: 100%;
   }
 
@@ -4044,7 +4044,7 @@
 
   .dark-jm-img {
     display: block;
-    right: 0%;
+    right: revert-layer;
   }
 
   .light-jm-img {
