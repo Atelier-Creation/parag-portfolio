@@ -674,6 +674,7 @@
   overflow: visible;
 }
 
+
 .mask-img-service.framer {
   background-color: var(--_color---bg-cold);
   border: 1px solid #09f;
@@ -4696,6 +4697,12 @@
   .service-wrapper .cont-imgs-service {
     grid-template-columns: 1fr;
     grid-row-gap: 3vw;
+  }
+  .mob-hidden{
+    display: none !important;
+  }
+  .hero-name-text{
+    display: none !important;
   }
 
   .service-wrapper .mask-img-service {
