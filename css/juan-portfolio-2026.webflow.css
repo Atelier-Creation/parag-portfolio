@@ -5067,8 +5067,9 @@
 
   .about-me-portrait-bg-text {
     letter-spacing: -.4vw;
-    font-size: 12vw;
-    top: 9%;
+    font-size: 14vw;
+    top: -1% !important;
+    line-height: 77% !important;
   }
 
   .about-me-highlight-grid {
