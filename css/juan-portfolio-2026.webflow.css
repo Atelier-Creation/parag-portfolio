@@ -4982,6 +4982,9 @@
     padding-top: 30vw;
     padding-bottom: 0;
   }
+  .about-me-portrait{
+    width: 130% !important;
+  }
 
   .service-wrapper.webflow .cont-imgs-service.webflow {
     display: none;
