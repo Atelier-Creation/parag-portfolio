@@ -231,28 +231,30 @@
                   </video></div>
               </div>
             </div> -->
-            <div class="mask-img-service" data-software-name="ERP Dashboard" data-cursor-bg="#2e54fe" data-cursor-color="#ffffff">
-              <img src="images/atelier-erp-dash.png" loading="lazy" sizes="100vw"
-                alt="Atelier educational ERP dashboard" class="img-service">
-            </div>
+            
             <div class="mask-img-service" data-software-name="knobshop" data-cursor-bg="#e18436" data-cursor-color="#f1f1f1">
               <img src="images/knobshop.png" loading="lazy" sizes="100vw" alt="Atelier hospital management dashboard"
                 class="img-service">
             </div>
-            <div class="mask-img-service" data-software-name="Gym Dashboard" data-cursor-bg="#18181a" data-cursor-color="#ffffff">
-              <img src="images/atelier-gym-dash.png" loading="lazy" sizes="100vw" alt="Atelier gym management dashboard"
+             <div class="mask-img-service" data-software-name="Super Napier" data-cursor-bg="#8f5cff" data-cursor-color="#ffffff">
+              <img src="images/supernapier.png" loading="lazy" sizes="100vw" alt="Atelier gym management dashboard"
                 class="img-service">
             </div>
             <div class="mask-img-service" data-software-name="Pentagon" data-cursor-bg="#8c6d5a" data-cursor-color="#ffffff">
               <img src="images/pentagon.png" loading="lazy" sizes="100vw"
                 alt="Atelier educational ERP dashboard" class="img-service">
             </div>
-            <div class="mask-img-service" data-software-name="HMS Dashboard" data-cursor-bg="#f3d36b" data-cursor-color="#18181a">
-              <img src="images/atelier-hms.png" loading="lazy" sizes="100vw" alt="Atelier hospital management dashboard"
+            <div class="mask-img-service" data-software-name="Trigun Studio" data-cursor-bg="#2e54fe" data-cursor-color="#ffffff">
+              <img src="images/trigunstd.png" loading="lazy" sizes="100vw"
+                alt="Atelier educational ERP dashboard" class="img-service">
+            </div>
+            <div class="mask-img-service" data-software-name="Nirvana" data-cursor-bg="#f3d36b" data-cursor-color="#18181a">
+              <img src="images/nirvana.png" loading="lazy" sizes="100vw" alt="Atelier hospital management dashboard"
                 class="img-service">
             </div>
-            <div class="mask-img-service" data-software-name="Super Napier" data-cursor-bg="#8f5cff" data-cursor-color="#ffffff">
-              <img src="images/supernapier.png" loading="lazy" sizes="100vw" alt="Atelier gym management dashboard"
+           
+            <div class="mask-img-service" data-software-name="BlueStone" data-cursor-bg="#18181a" data-cursor-color="#ffffff">
+              <img src="images/bluestone.png" loading="lazy" sizes="100vw" alt="Atelier gym management dashboard"
                 class="img-service">
             </div>
             <div class="mask-img-service" data-software-name="Sel Hospitality" data-cursor-bg="#eea159" data-cursor-color="#18181a">
@@ -283,8 +285,12 @@
               <img src="images/atelier-hms.png" loading="lazy" sizes="100vw" alt="Atelier hospital management dashboard"
                 class="img-service">
             </div>
-            <div class="mask-img-service" data-software-name="Brand System" data-cursor-bg="#8f5cff" data-cursor-color="#ffffff"><img src="images/home-work8.jpg" loading="lazy" sizes="100vw"
-                srcset="images/home-work8-p-500.jpg 500w, images/home-work8.jpg 800w" alt="" class="img-service"></div>
+            <div class="mask-img-service" data-software-name="Gym Dashboard" data-cursor-bg="#18181a" data-cursor-color="#ffffff">
+              <img src="images/atelier-gym-dash.png" loading="lazy" sizes="100vw" alt="Atelier gym management dashboard"
+                class="img-service">
+            </div>
+            <!-- <div class="mask-img-service" data-software-name="Brand System" data-cursor-bg="#8f5cff" data-cursor-color="#ffffff"><img src="images/home-work8.jpg" loading="lazy" sizes="100vw"
+                srcset="images/home-work8-p-500.jpg 500w, images/home-work8.jpg 800w" alt="" class="img-service"></div> -->
 
             <div class="mask-img-service" data-software-name="Inventory Software" data-cursor-bg="#f36f45" data-cursor-color="#ffffff"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto"
                 preload="metadata" poster="images/atelier-tms-dash.png">
@@ -410,10 +416,11 @@
         </div>
         <div class="about-me-panel">
           <div class="about-me-portrait-wrap">
-            <div class="about-me-portrait-bg-text">User interface Architect</div>
-            <img src="images/praga-no-bg.png" loading="lazy" sizes="(max-width: 767px) 82vw, 28vw"
-              srcset="images/praga-no-bg.png 500w, images/praga-no-bg.png 800w, images/praga-no-bg.png 1080w, images/praga-no-bg.png 1600w, images/praga-no-bg.png 2000w, images/praga-no-bg.png 2530w"
-              alt="Praga portrait" class="about-me-portrait">
+            <img src="images/about_me_User_Interface_Designer.webp" loading="lazy" sizes="(max-width: 767px) 82vw, 28vw"
+              alt="" class="about-me-portrait-bg" aria-hidden="true">
+            <div class="about-me-portrait-bg-text">User Interface Architect</div>
+            <img src="images/about_me_User_Interface_Designer_nobg.png" loading="lazy" sizes="(max-width: 767px) 82vw, 28vw"
+              alt="Designer working on a user interface" class="about-me-portrait">
           </div>
           <div class="about-me-highlight-grid" aria-label="Experience highlights">
             <div class="about-me-highlight">
@@ -851,7 +858,8 @@
       }
 
       gsap.set(revealItems, { opacity: 0, y: 34 });
-      gsap.set(section.querySelector(".about-me-portrait"), { scale: 1.12 });
+      gsap.set(section.querySelector(".about-me-portrait-bg"), { scale: 1.05 });
+      gsap.set(section.querySelector(".about-me-portrait"), { scale: 1.05 });
 
       const timeline = gsap.timeline({
         scrollTrigger: {
@@ -874,9 +882,13 @@
           duration: 0.8
         }, "-=0.5")
         .to(section.querySelector(".about-me-portrait"), {
-          scale: 1.06,
+          scale: 1.02,
           duration: 1.1
         }, "-=0.7")
+        .to(section.querySelector(".about-me-portrait-bg"), {
+          scale: 1.02,
+          duration: 1.1
+        }, "-=1.1")
         .to(section.querySelectorAll(".about-me-skills span"), {
           opacity: 1,
           y: 0,
