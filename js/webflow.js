@@ -37097,7 +37097,7 @@
                           "wf:style": {
                             color: [
                               "#7cc3cc",
-                              "#18181a",
+                              "#141414",
                             ],
                           },
                         },
@@ -37131,7 +37131,7 @@
                           "wf:style": {
                             color: [
                               "#7cc3cc",
-                              "#18181a",
+                              "#141414",
                             ],
                           },
                         },
@@ -37377,7 +37377,7 @@
                           "wf:style": {
                             color: [
                               "#7cc3cc",
-                              "#18181a",
+                              "#141414",
                             ],
                           },
                         },
@@ -37791,7 +37791,7 @@
                         tt: 2,
                         properties: {
                           "wf:transform": {},
-                          "wf:style": { color: ["#7cc3cc", "#18181a"] },
+                          "wf:style": { color: ["#7cc3cc", "#141414"] },
                         },
                         splitText: { type: "words" },
                       },
@@ -38102,7 +38102,7 @@
                         tt: 2,
                         properties: {
                           "wf:transform": {},
-                          "wf:style": { color: ["#7cc3cc", "#18181a"] },
+                          "wf:style": { color: ["#7cc3cc", "#141414"] },
                         },
                         splitText: { type: "words" },
                       },

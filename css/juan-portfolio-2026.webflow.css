@@ -27,7 +27,7 @@
   --_color---bg-grey: #f4f4f4;
   --_color---orange1: #7cc3cc;
   --_color---blue: #2e54fe;
-  --_color---grey: #18181a;
+  --_color---grey: #141414;
   --_color---white: #fff;
   --_color---bg-cold: #e8e9ef;
   --_color---orange2: #100f11;
@@ -4786,12 +4786,14 @@
     margin-top: 0;
     margin-bottom: 0;
     font-family: Goga, Arial, sans-serif;
-    font-size: 5.4vw;
+    font-size: 4.4vw;
     font-weight: 600;
-    line-height: 100%;
+    line-height: 110%;
 }
 .heighlight{
-  color: #ffb58a;
+  color: #19b7d5;
+  font-weight: 700;
+  font-size: 1.4rem;
 }
 .about-me-intro {
   color: #525252;
@@ -4932,7 +4934,79 @@
   display: block;
 }
 
+.about-me-timeline {
+  border-top: 1px solid #18181a24;
+  border-bottom: 1px solid #18181a24;
+  grid-column: 1 / -1;
+  grid-row-gap: 0;
+  display: grid;
+  position: relative;
+}
+
+.about-me-timeline-item {
+  border-bottom: 1px solid #18181a24;
+  grid-column-gap: 3vw;
+  grid-template-columns: minmax(8rem, 14vw) 1fr;
+  align-items: stretch;
+  display: grid;
+}
+
+.about-me-timeline-item:last-child {
+  border-bottom: 0;
+}
+
+.about-me-timeline-date {
+  color: var(--_color---orange1);
+  border-right: 1px solid #18181a24;
+  align-items: center;
+  padding: 1.35vw 2vw 1.35vw 0;
+  font-family: Goga, Arial, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 120%;
+  display: flex;
+}
+
+.about-me-timeline-card {
+  padding: 1.35vw 0;
+}
+
+.about-me-timeline-role {
+  color: #6f6f6f;
+  letter-spacing: .08rem;
+  text-transform: uppercase;
+  margin-bottom: .55vw;
+  font-family: Goga, Arial, sans-serif;
+  font-size: .72rem;
+  font-weight: 700;
+  line-height: 120%;
+  display: block;
+}
+
+.about-me-timeline-card h3 {
+  color: var(--_color---grey);
+  letter-spacing: -.03vw;
+  margin-top: 0;
+  margin-bottom: .55vw;
+  font-family: Goga, Arial, sans-serif;
+  font-size: 1.65vw;
+  font-weight: 700;
+  line-height: 115%;
+}
+
+.about-me-timeline-card p {
+  color: #525252;
+  max-width: 54rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Goga, Arial, sans-serif;
+  font-size: .98rem;
+  font-weight: 600;
+  line-height: 145%;
+}
+
 .about-me-skills {
+  grid-column: 1 / -1;
   grid-column-gap: .6vw;
   grid-row-gap: .6vw;
   flex-flow: wrap;
@@ -4962,6 +5036,7 @@
 
 .about-me-philosophy {
   border-top: 1px solid #18181a24;
+  grid-column: 1 / -1;
   grid-column-gap: 0;
   grid-row-gap: 0;
   flex-flow: column;
@@ -5088,6 +5163,34 @@
 
   .about-me-label {
     margin-top: 2vw;
+  }
+
+  .about-me-timeline-item {
+    grid-row-gap: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .about-me-timeline-date {
+    border-right: 0;
+    padding: 4vw 0 1vw;
+  }
+
+  .about-me-timeline-card {
+    padding: 0 0 4vw;
+  }
+
+  .about-me-timeline-role {
+    margin-bottom: 1.5vw;
+  }
+
+  .about-me-timeline-card h3 {
+    letter-spacing: 0;
+    margin-bottom: 2vw;
+    font-size: 1.35rem;
+  }
+
+  .about-me-timeline-card p {
+    font-size: .95rem;
   }
 
   .about-me-skills {

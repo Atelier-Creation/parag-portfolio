@@ -411,8 +411,8 @@
       <div class="about-me-wrapper">
         <div class="about-me-copy">
           <div class="tag-text about-me-eyebrow">About Me</div>
-          <h2 class="about-me-heading">Designing interfaces that feel clear, useful, and quietly memorable.</h2>
-          <p class="about-me-intro">I'm <span class="heighlight">Pragadees</span>, a user interface architect focused on websites, software products, and visual systems for brands that care about the details. My work blends strategy, visual direction, and production-ready execution so ideas can move from first impression to finished experience with intent.</p>
+          <h2 class="about-me-heading">Designing intuitive interfaces shaped by research, craft, and real product needs.</h2>
+          <p class="about-me-intro">I'm <span class="heighlight">Pragadeeswaran</span>, a UI/UX architect from Coimbatore with hands-on experience across web and mobile products. I turn user research, wireframes, visual systems, and high-fidelity prototypes into clean interfaces that prioritize user needs, accessibility, responsive behavior, and business goals.</p>
         </div>
         <div class="about-me-panel">
           <div class="about-me-portrait-wrap">
@@ -424,40 +424,69 @@
           </div>
           <div class="about-me-highlight-grid" aria-label="Experience highlights">
             <div class="about-me-highlight">
-              <span class="about-me-number">5+</span>
-              <span class="about-me-label">years shaping digital products</span>
+              <span class="about-me-number">4+</span>
+              <span class="about-me-label">years designing UI/UX experiences</span>
             </div>
             <div class="about-me-highlight">
               <span class="about-me-number">3</span>
-              <span class="about-me-label">core lanes: web, software, graphics</span>
+              <span class="about-me-label">core lanes: research, UI, prototypes</span>
             </div>
             <div class="about-me-highlight">
               <span class="about-me-number">01</span>
-              <span class="about-me-label">goal: work that feels effortless</span>
+              <span class="about-me-label">goal: interfaces users trust</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-me-timeline" aria-label="Experience timeline">
+          <div class="about-me-timeline-item">
+            <div class="about-me-timeline-date">2022-2024</div>
+            <div class="about-me-timeline-card">
+              <span class="about-me-timeline-role">UI/UX Designer</span>
+              <h3>Xcodefix</h3>
+              <p>Designed user-centered web and mobile experiences through interviews, surveys, usability testing, wireframes, and interactive prototypes.</p>
+            </div>
+          </div>
+          <div class="about-me-timeline-item">
+            <div class="about-me-timeline-date">2024-2026</div>
+            <div class="about-me-timeline-card">
+              <span class="about-me-timeline-role">UI/UX Designer</span>
+              <h3>e-Nova Software and Hardware Solution Pvt Ltd.</h3>
+              <p>Created high-fidelity interfaces with clear visual hierarchy, accessible responsive layouts, branding, color systems, typography, and close developer collaboration.</p>
             </div>
           </div>
         </div>
         <div class="about-me-skills" aria-label="Core skills">
           <span>UI Architecture</span>
-          <span>Web Design</span>
-          <span>UX Architecture</span>
-          <span>Software UX</span>
-          <span>Graphic Systems</span>
-          <span>Creative Direction</span>
-          <span>Front-end Handoff</span>
+          <span>User Research</span>
+          <span>Wireframing</span>
+          <span>Prototyping</span>
+          <span>Usability Testing</span>
+          <span>Visual Hierarchy</span>
+          <span>Accessibility</span>
+          <span>Responsive Design</span>
+          <span>Brand Systems</span>
+          <span>Typography</span>
+          <span>Figma</span>
+          <span>Illustrator</span>
+          <span>Photoshop</span>
+          <span>Sketch</span>
+          <span>Adobe XD</span>
+          <span>InVision</span>
+          <span>Hardware Diagnostics</span>
+          <span>Network Configuration</span>
         </div>
         <div class="about-me-philosophy">
           <div class="about-me-philosophy-row">
             <span>01</span>
-            <p>Start with the business goal, then make the interface feel obvious.</p>
+            <p>Start with user needs and business goals, then shape flows that feel obvious.</p>
           </div>
           <div class="about-me-philosophy-row">
             <span>02</span>
-            <p>Use visual craft to create trust, rhythm, and a reason to remember.</p>
+            <p>Use research, hierarchy, color, and typography to create trust and clarity.</p>
           </div>
           <div class="about-me-philosophy-row">
             <span>03</span>
-            <p>Keep systems flexible enough to scale, but precise enough to feel premium.</p>
+            <p>Collaborate closely with developers so prototypes become polished products.</p>
           </div>
         </div>
       </div>
@@ -850,7 +879,7 @@
       if (!section || !window.gsap) return;
 
       const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      const revealItems = section.querySelectorAll(".about-me-eyebrow, .about-me-heading, .about-me-intro, .about-me-panel, .about-me-skills span, .about-me-philosophy-row");
+      const revealItems = section.querySelectorAll(".about-me-eyebrow, .about-me-heading, .about-me-intro, .about-me-panel, .about-me-timeline-item, .about-me-skills span, .about-me-philosophy-row");
 
       if (reducedMotion || !window.ScrollTrigger) {
         gsap.set(revealItems, { opacity: 1, y: 0, clearProps: "transform" });
@@ -889,12 +918,18 @@
           scale: 1.02,
           duration: 1.1
         }, "-=1.1")
+        .to(section.querySelectorAll(".about-me-timeline-item"), {
+          opacity: 1,
+          y: 0,
+          stagger: 0.08,
+          duration: 0.55
+        }, "-=0.45")
         .to(section.querySelectorAll(".about-me-skills span"), {
           opacity: 1,
           y: 0,
           stagger: 0.035,
           duration: 0.45
-        }, "-=0.45")
+        }, "-=0.25")
         .to(section.querySelectorAll(".about-me-philosophy-row"), {
           opacity: 1,
           y: 0,
