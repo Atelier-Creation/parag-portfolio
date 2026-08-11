@@ -4089,10 +4089,7 @@
 
   .heading-cta {
     letter-spacing: -.35vw;
-    font-size: 0vw;
-  }
-  .cont-icon-cta{
-    opacity: 0 !important;
+    font-size: 9vw;
   }
 
   .heading-cta.main {
@@ -4410,7 +4407,7 @@
   }
 
   .email-cta {
-    color: var(--_color---white);
+    color: var(--_color---orange1);
     font-size: 8vw;
   }
 
